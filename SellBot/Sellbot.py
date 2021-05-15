@@ -46,7 +46,7 @@ async def buy(ctx, good, price):
         emoji = reaction.emoji
         user = user.id
         client = await bot.fetch_user(OP)
-        if (emoji == "👍") & (user != OP & 829903933329244170):
+        if (emoji == "👍") & (user != OP & BOT ID):
             client = await bot.fetch_user(OP)
             await client.send(f'User <@{user}> has your item, "{good}", and wants {price} for it')
         elif (emoji == "👎") & (user == OP):
@@ -58,7 +58,7 @@ async def buy(ctx, good, price):
 
 @bot.command()
 async def bothelp(ctx):
-    await ctx.send(f"dababy bot is a bot that allows you to list items for sale and to trade with other people.\nTo get started just type $sell Item, Price and it will list your item in the #listings channel")
+    await ctx.send(f"HELP COMMAND HERE")
 
 
 @bot.event
