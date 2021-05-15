@@ -1,4 +1,2 @@
-# Sellbot
-A discord bot to sell things.
-
-Do note that you have to change channel id's and insert your token
+# Bots
+Discord bots made in discord.py for various servers i'm in
